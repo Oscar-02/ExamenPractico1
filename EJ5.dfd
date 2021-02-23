@@ -1,0 +1,472 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+254
+'Ingrese los datos de la siguiente manera: Nombre 1, Cargo 1, Horas Laboradas 1, Nombre 2, Cargo 2, Horas Laboradas 2, Nombre 3, Cargo 3, Horas Laboradas 3. PARA EL CARGO OCUPE LOS SIGUIENTES NUMEROS: 1.Gerente 2. Asistente 3. Secretaria 4. Otros Cargos'
+5
+1
+73
+nombre1, cargo1, horas1, nombre2, cargo2, horas2, nombre3, cargo3, horas3
+7
+0
+1
+42
+horas1 <=0 and horas2 <= 0 and horas3 <= 0
+7
+0
+1
+41
+cargo1 = 1 and cargo2 = 2 and cargo3 = 3 
+7
+0
+1
+13
+horas1 <= 160
+6
+1
+5
+base1
+39
+(160 * 9.75) + ((horas1 - 160) * 11.50)
+6
+3
+5
+isss1
+14
+base1 * 0.0525
+4
+afp1
+14
+base1 * 0.0688
+6
+renta1
+11
+base1 * 0.1
+6
+2
+10
+descuento1
+21
+afp1 + isss1 + renta1
+5
+neto1
+18
+base1 - descuento1
+13
+6
+1
+5
+base1
+13
+horas1 * 9.75
+6
+3
+5
+isss1
+14
+base1 * 0.0525
+4
+afp1
+14
+base1 * 0.0688
+6
+renta1
+11
+base1 * 0.1
+6
+2
+10
+descuento1
+21
+afp1 + isss1 + renta1
+5
+neto1
+18
+base1 - descuento1
+13
+7
+0
+1
+10
+cargo1 = 1
+7
+0
+1
+10
+cargo1 = 2
+7
+0
+1
+10
+cargo1 = 3
+7
+0
+1
+10
+cargo1 = 4
+13
+6
+1
+5
+neto1
+21
+neto1 + (neto1 * 0.2)
+13
+13
+6
+1
+5
+neto1
+22
+neto1 + (neto1 * 0.03)
+13
+13
+6
+1
+5
+neto1
+22
+neto1 + (neto1 * 0.05)
+13
+13
+6
+1
+5
+neto1
+21
+neto1 + (neto1 * 0.1)
+13
+7
+0
+1
+13
+horas2 <= 160
+6
+1
+5
+base2
+39
+(160 * 9.75) + ((horas2 - 160) * 11.50)
+6
+3
+5
+isss2
+14
+base2 * 0.0525
+4
+afp2
+14
+base2 * 0.0688
+6
+renta2
+11
+base2 * 0.1
+6
+2
+10
+descuento2
+21
+afp2 + isss2 + renta2
+5
+neto2
+18
+base2 - descuento2
+13
+6
+1
+5
+base2
+13
+horas2 * 9.75
+6
+3
+5
+isss2
+14
+base2 * 0.0525
+4
+afp2
+14
+base2 * 0.0688
+6
+renta2
+11
+base2 * 0.1
+6
+2
+10
+descuento2
+21
+afp2 + isss2 + renta2
+5
+neto2
+18
+base2 - descuento2
+13
+7
+0
+1
+10
+cargo2 = 1
+7
+0
+1
+10
+cargo2 = 2
+7
+0
+1
+10
+cargo2 = 3
+7
+0
+1
+10
+cargo2 = 4
+13
+6
+1
+5
+neto2
+21
+neto2 + (neto2 * 0.2)
+13
+13
+6
+1
+5
+neto2
+22
+neto2 + (neto2 * 0.03)
+13
+13
+6
+1
+5
+neto2
+22
+neto2 + (neto2 * 0.05)
+13
+13
+6
+1
+5
+neto2
+21
+neto2 + (neto2 * 0.1)
+13
+7
+0
+1
+13
+horas3 <= 160
+6
+1
+5
+base3
+39
+(160 * 9.75) + ((horas3 - 160) * 11.50)
+6
+3
+5
+isss3
+14
+base3 * 0.0525
+4
+afp3
+14
+base3 * 0.0688
+6
+renta3
+11
+base3 * 0.1
+6
+2
+10
+descuento3
+21
+afp3 + isss3 + renta3
+5
+neto3
+18
+base3 - descuento3
+13
+6
+1
+5
+base3
+12
+horas3* 9.75
+6
+3
+5
+isss3
+14
+base3 * 0.0525
+4
+afp3
+14
+base3 * 0.0688
+6
+renta3
+11
+base3 * 0.1
+6
+2
+10
+descuento3
+21
+afp3 + isss3 + renta3
+5
+neto3
+18
+base3 - descuento3
+13
+7
+0
+1
+10
+cargo3 = 1
+7
+0
+1
+10
+cargo3 = 2
+7
+0
+1
+10
+cargo3 = 3
+7
+0
+1
+10
+cargo3 = 4
+13
+6
+1
+5
+neto3
+21
+neto3 + (neto3 * 0.2)
+13
+13
+6
+1
+5
+neto3
+22
+neto3 + (neto3 * 0.03)
+13
+13
+6
+1
+5
+neto3
+22
+neto3 + (neto3 * 0.05)
+13
+13
+6
+1
+5
+neto3
+21
+neto3 + (neto3 * 0.1)
+13
+4
+1
+420
+'Sr. ', nombre1, '. Ha laborado un total de ', horas1, ' horas. Sus descuentos son de $', descuento1, ' y su salario neto es de $', neto1, '. Sr. ', nombre2, '. Ha laborado un total de ', horas2, ' horas. Sus descuentos son de $', descuento2, ' y su salario neto es de $', neto2, ' . Sr. ', nombre3, '. Ha laborado un total de ', horas3, ' horas. Sus descuentos son de $', descuento3, ' y su salario neto es de $', neto3
+7
+0
+1
+31
+neto1 > neto2 and neto1 > neto3
+7
+0
+1
+31
+neto1 < neto2 and neto2 > neto3
+7
+0
+1
+31
+neto1 < neto3 and neto2 < neto3
+13
+4
+1
+44
+'La persona con mayor salario es: ', nombre3
+7
+0
+1
+13
+neto1 > neto2
+4
+1
+44
+'La persona con menor salario es: ', nombre1
+13
+4
+1
+44
+'La persona con menor salario es: ', nombre2
+13
+13
+13
+4
+1
+44
+'La persona con mayor salario es: ', nombre2
+7
+0
+1
+13
+neto1 > neto3
+4
+1
+44
+'La persona con menor salario es: ', nombre1
+13
+4
+1
+44
+'La persona con menor salario es: ', nombre3
+13
+13
+13
+4
+1
+44
+'La persona con mayor salario es: ', nombre1
+7
+0
+1
+13
+neto2 > neto3
+4
+1
+44
+'La persona con menor salario es: ', nombre2
+13
+4
+1
+44
+'La persona con menor salario es: ', nombre3
+13
+13
+13
+4
+1
+13
+'No hay bono'
+13
+13
+13
+1
