@@ -1,0 +1,12 @@
+Oscar Canas,Josue Ayala,Manuel Caraman
+'Oscar Canas'
+2
+200 --> $2020 - $447.026 (descuento) = $1572.974 + $78.6487 (bono) = $1651.6227
+
+'Josue Ayala'
+1
+140 --> $1365 - $302.0745 (descuento) = $1062.9255 + $106.29255 (bono) = $1169.21805
+
+'Manuel CaraMan'
+3
+168 --> $1652 - $365.8576 (descuento) = $1286.4124 + $38.592372 (bono) = $1325.004772
