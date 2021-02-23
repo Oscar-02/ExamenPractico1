@@ -29,11 +29,11 @@ namespace EJ2
                     num4 = int.Parse(snum4);
                     error1 = false;
                 }
-                catch (FormatException error)
+                catch (Exception error)
                 {
                     error1 = true;
-                    Console.WriteLine(error);
                     Console.Clear();
+                    Console.WriteLine(error.ToString() + '\n');
                 }
             }
             Console.Clear();
