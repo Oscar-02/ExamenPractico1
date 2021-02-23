@@ -304,6 +304,57 @@ namespace EJ5
                 Console.WriteLine(nombre2 + ": " + neto2);
                 Console.WriteLine(nombre3 + ": " + neto3);
 
+                if (neto1 > neto2 && neto1 > neto3)
+                {
+                    Console.WriteLine("\nEl salario de " + nombre1 + " es el mayor");
+                    if (neto2 > neto3)
+                    {
+                        Console.WriteLine("El salario de " + nombre3 + " es el menor");
+                    }
+                    else
+                    {
+                        Console.WriteLine("El salario de " + nombre2 + " es el menor");
+                    }
+                }
+
+                else if (neto1 < neto2 && neto2 > neto3)
+                {
+                    Console.WriteLine("\nEl salario de " + nombre2 + " es el mayor");
+                    if (neto1 > neto3)
+                    {
+                        Console.WriteLine("El salario de " + nombre3 + " es el menor");
+                    }
+                    else
+                    {
+                        Console.WriteLine("El salario de " + nombre1 + " es el menor");
+                    }
+                }
+                else if (neto3 > neto2 && neto1 < neto3)
+                {
+                    Console.WriteLine("\nEl salario de " + nombre3 + " es el mayor");
+                    if (neto2 > neto1)
+                    {
+                        Console.WriteLine("El salario de " + nombre1 + " es el menor");
+                    }
+                    else
+                    {
+                        Console.WriteLine("El salario de " + nombre2 + " es el menor");
+                    }
+                }
+
+                if (neto1 > 300)
+                {
+                    Console.WriteLine(nombre1 + "tiene un salario mayor a 300$");
+                }
+                if (neto2 > 300)
+                {
+                    Console.WriteLine(nombre2 + "tiene un salario mayor a 300$");
+                }
+                if (neto3 > 300)
+                {
+                    Console.WriteLine(nombre3 + "tiene un salario mayor a 300$");
+                }
+
             }
             Console.WriteLine("Presione cualquier tecla para finalizar...");
             Console.ReadKey();
